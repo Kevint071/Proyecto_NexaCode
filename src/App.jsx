@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate, Outlet } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate, Outlet } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Header from "./Components/Header/Header";
 import Python from "./Components/Python/Python";
@@ -12,9 +12,9 @@ import AñadirElementosDict from "./Components/Python/Diccionarios/AñadirElemen
 
 function App() {
   return (
-    <BrowserRouter basename="Proyecto_NexaCode">
+    <HashRouter>
       <Header />
-      <Routes>
+      <Routes >
         <Route path="/" element={<Home />} />
           {/* <Route path="*" element={<Navigate to="/Proyecto_NexaCode"/>}/> */}
         <Route path="Python/*" element={<Python />}>
@@ -26,7 +26,7 @@ function App() {
         </Route>
         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
