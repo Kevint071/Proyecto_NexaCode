@@ -16,8 +16,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/Proyecto_NexaCode" element={<Home />} />
-          <Route path="*" element={<Navigate to="/Proyecto_NexaCode"/>}/>
-        <Route path="/Python/*" element={<Python />}>
+          {/* <Route path="*" element={<Navigate to="/Proyecto_NexaCode"/>}/> */}
+        <Route path="Python/*" element={<Python />}>
           <Route path="Introduccion-a-Python" element={<IntroPython />}/>
           <Route path="Diccionarios/Definicion" element={<DefinicionDict />} />
           <Route path="Diccionarios/Manipulacion-elementos-en-diccionario" element={<AñadirElementosDict/>}/>
