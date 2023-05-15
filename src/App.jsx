@@ -12,7 +12,7 @@ import AñadirElementosDict from "./Components/Python/Diccionarios/AñadirElemen
 
 function App() {
   return (
-    <BrowserRouter basename="Proyecto_NexaCode" >
+    <HashRouter>
       <Header />
       <Routes >
         <Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
         </Route>
         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
