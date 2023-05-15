@@ -8,16 +8,16 @@ function Header() {
   return (
     <HeaderP>
       <Nav>
-        <NavLink to="/Proyecto_NexaCode">
+        <NavLink to="/">
           <ImagenLogo src={logo} />
         </NavLink>
         <Menu>
           <li>
-            <NavLink to="/Proyecto_NexaCode">Inicio</NavLink>
+            <NavLink to="/">Inicio</NavLink>
           </li>
           <Desplegable />
           <li>
-            <NavLink to="/Proyecto_NexaCode">Portafolio</NavLink>
+            <NavLink to="/">Portafolio</NavLink>
           </li>
         </Menu>
       </Nav>

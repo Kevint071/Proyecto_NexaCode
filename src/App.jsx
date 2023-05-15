@@ -12,10 +12,10 @@ import AñadirElementosDict from "./Components/Python/Diccionarios/AñadirElemen
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="Proyecto_NexaCode">
       <Header />
       <Routes>
-        <Route path="/Proyecto_NexaCode" element={<Home />} />
+        <Route path="/" element={<Home />} />
           {/* <Route path="*" element={<Navigate to="/Proyecto_NexaCode"/>}/> */}
         <Route path="Python/*" element={<Python />}>
           <Route path="Introduccion-a-Python" element={<IntroPython />}/>
@@ -24,7 +24,7 @@ function App() {
           <Route path="Instalar-Python" element={<InstalarPython/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Route>
-        <Route path="*" element={<Navigate to="/"/>}/>
+        
       </Routes>
     </BrowserRouter>
   );
