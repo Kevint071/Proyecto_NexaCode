@@ -16,16 +16,16 @@ function Desplegable() {
             <NavLink to="/Python/Introduccion-a-Python">Python</NavLink>
           </li>
           <li>
-            <NavLink to="/">Javascript</NavLink>
+            <NavLink to="#">Javascript</NavLink>
           </li>
           <li>
-            <NavLink to="/">Html</NavLink>
+            <NavLink to="#">Html</NavLink>
           </li>
           <li>
-            <a href="#">CSS</a>
+            <NavLink to="#">CSS</NavLink>
           </li>
           <li>
-            <a href="#">Docker</a>
+            <NavLink to="#">Docker</NavLink>
           </li>
         </ListaDesplegable>
       </ListaContenedora>

@@ -15,15 +15,16 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-          <Route path="*" element={<Navigate to="/"/>}/>
-        <Route path="Python/*" element={<Python />}>
-          <Route path="Introduccion-a-Python" element={<IntroPython />} />
+        <Route path="/Proyecto_NexaCode" element={<Home />} />
+          <Route path="*" element={<Navigate to="/Proyecto_NexaCode"/>}/>
+        <Route path="/Python/*" element={<Python />}>
+          <Route path="Introduccion-a-Python" element={<IntroPython />}/>
           <Route path="Diccionarios/Definicion" element={<DefinicionDict />} />
           <Route path="Diccionarios/Manipulacion-elementos-en-diccionario" element={<AñadirElementosDict/>}/>
           <Route path="Instalar-Python" element={<InstalarPython/>} />
-          <Route path="*" element={<Navigate to="/Python/Introduccion-a-Python"/>}/>
+          <Route path="*" element={<Navigate to="/"/>} />
         </Route>
+        <Route path="*" element={<Navigate to="/"/>}/>
       </Routes>
     </BrowserRouter>
   );
