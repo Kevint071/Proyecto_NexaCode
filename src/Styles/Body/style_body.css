@@ -1,0 +1,9 @@
+body{
+  margin: auto;
+  background-color: #0e0e0e;
+  color: #e5e7eb;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
