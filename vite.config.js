@@ -10,6 +10,6 @@ export default defineConfig(() => {
 
   return {
     plugins: [react()],
-    base: "https://Kevint071.github.io/Proyecto_NexaCode/",
+    base: "/Proyecto_NexaCode/",
   };
 }); 
