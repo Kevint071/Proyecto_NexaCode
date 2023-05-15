@@ -16,6 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="/"/>}/>
         <Route path="Python/*" element={<Python />}>
           <Route path="Introduccion-a-Python" element={<IntroPython />} />
           <Route path="Diccionarios/Definicion" element={<DefinicionDict />} />
