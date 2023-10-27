@@ -34,7 +34,7 @@ export function TecnologiasEnseñar() {
           </p>
         </ContainerLenguaje>
 
-        <ContainerLenguaje>
+        {/* <ContainerLenguaje>
           <img
             src={PythonContainer}
             alt="Imagen de Python en un contenedor de index"
@@ -44,15 +44,15 @@ export function TecnologiasEnseñar() {
             aplicaciones móviles y desarrollo de juegos, con frameworks
             populares como React.
           </p>
-        </ContainerLenguaje>
-        <ContainerLenguaje>Moa skdjfsldjflkszdjflksdfj</ContainerLenguaje>
+        </ContainerLenguaje> */}
+        {/* <ContainerLenguaje>Moa skdjfsldjflkszdjflksdfj</ContainerLenguaje>
         <ContainerLenguaje>alsdjflaskjdlkasjd</ContainerLenguaje>
         <ContainerLenguaje>jsadlkfjsaldfjslkd</ContainerLenguaje>
         <ContainerLenguaje></ContainerLenguaje>
         <ContainerLenguaje></ContainerLenguaje>
         <ContainerLenguaje></ContainerLenguaje>
         <ContainerLenguaje></ContainerLenguaje>
-        <ContainerLenguaje></ContainerLenguaje>
+        <ContainerLenguaje></ContainerLenguaje> */}
       </ContainerLenguajes>
     </>
   );

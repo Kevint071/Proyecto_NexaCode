@@ -8,9 +8,7 @@ import {
   Enlaces,
 } from "../../Styles/Index/Style_index";
 
-import {
-  TecnologiasEnseñar
-} from "./ListadoLenguajes";
+import { TecnologiasEnseñar } from "./ListadoLenguajes";
 
 import { Footer, Creditos, P_footer } from "../../Styles/Footer/Style_footer";
 
@@ -43,7 +41,7 @@ function ContentHome() {
           espacio en el que poder compartir proyectos y creaciones con el mundo.
           Sin embargo, con el tiempo me di cuenta de que era mejor crear algo
           que fuera mucho más que solo un espacio para compartir{" "}
-          <Enlaces to="/Python">mis proyectos</Enlaces>. <br />
+          <Enlaces to="/Proyectos">proyectos</Enlaces>. <br />
           <br /> Así es como nació la idea de crear una red de información
           dedicada a la programación, donde se puedan encontrar temas
           específicos y de calidad. Un lugar donde los programadores puedan

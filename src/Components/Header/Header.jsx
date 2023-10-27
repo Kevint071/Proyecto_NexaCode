@@ -17,7 +17,8 @@ function Header() {
           </li>
           <Desplegable />
           <li>
-            <NavLink to="/">Portafolio</NavLink>
+            <NavLink to="Proyectos">Proyectos
+            </NavLink>
           </li>
         </Menu>
       </Nav>

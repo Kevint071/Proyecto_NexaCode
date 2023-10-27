@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import Python from "./Components/Python/Python";
 import IntroPython from "./Components/Python/IntroduccionPython/IntroPython";
 import InstalarPython from "./Components/Python/IntroduccionPython/InstalarPython";
+import Proyectos from './Components/Proyectos/Proyectos'
 
 import DefinicionDict from "./Components/Python/Diccionarios/Definicion";
 import AñadirElementosDict from "./Components/Python/Diccionarios/AñadirElementos";
@@ -24,6 +25,7 @@ function App() {
           <Route path="Instalar-Python" element={<InstalarPython/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Route>
+        <Route path="Proyectos" element={<Proyectos />} />
         
       </Routes>
     </HashRouter>
